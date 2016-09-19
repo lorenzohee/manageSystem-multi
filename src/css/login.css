@@ -1,0 +1,58 @@
+
+.login_path_nav{
+	margin-bottom: 30px;
+	padding: 20px 0 10px 10px;
+	font-size: 13px;
+	border-bottom: 1px solid #ccc;
+}
+.panel-default {
+	margin-top: 0;
+	padding: 30px;
+}
+.login-panel {margin-top:0; min-height:400px;}
+
+.login_tab {
+	width:100%;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.login_tab span{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	color: #8a8a8a;
+	cursor: pointer;
+	
+}
+.login_tab span:hover, .login_tab span.active {color: #000;}
+
+@media (max-width:980px) {
+	.login_company {
+		width: 0;
+	}
+}
+
+.register-panel{
+	margin: 0 auto;
+	width: 400px;
+	border: 1px solid #337ab7;
+	border-radius: 6px;
+}
+
+.register-panel-heading{
+	border-bottom: 1px solid #337ab7;
+	padding: 10px 20px;
+	color: #337ab7;
+	font-size: 16px;
+}
+
+.panel-body {padding: 30px;}
+
+.login_link {
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.login_link a:hover{background: none; color: #000}
